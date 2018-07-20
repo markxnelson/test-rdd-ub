@@ -5,3 +5,4 @@ build:
     - script: 
       code: | 
         uname -a
+        docker info
