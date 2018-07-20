@@ -5,4 +5,6 @@ build:
     - script: 
       code: | 
         uname -a
+        apt-get update
+        apt-get -y install docker
         docker info
